@@ -14,8 +14,8 @@ class Polygon{
 
 class Triangle extends Polygon{
   get valid(){
-    if(!Array.isArray(this.poly)) return;
-    if(this.poly.length !==3)return
+    if(!Array.isArray(this.poly)) return(false);
+    if(this.poly.length !==3)return(false)
     else return((this.poly[0]+this.poly[1]>this.poly[2])&&(this.poly[1]+this.poly[2]>this.poly[0])&& (this.poly[0]+this.poly[2]>this.poly[1]))
     
   }
