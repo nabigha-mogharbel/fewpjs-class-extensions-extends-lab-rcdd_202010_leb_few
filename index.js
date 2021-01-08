@@ -8,5 +8,11 @@ class Polygon{
   }
   get countSides() {return this.sides}
   get perimeter(){const reducer=(acc, curr) => acc+ curr
+  console.log(typeof(this.poly.reduce(reducer)))
   return this.poly.reduce(reducer)}
+}
+class Triangle extends Polygon{
+  get valid(){
+    
+  }
 }
