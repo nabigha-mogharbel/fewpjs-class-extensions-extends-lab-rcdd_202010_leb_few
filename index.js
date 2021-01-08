@@ -11,8 +11,3 @@ class Polygon{
   console.log(typeof(this.poly.reduce(reducer)))
   return this.poly.reduce(reducer)}
 }
-class Triangle extends Polygon{
-  get valid(){
-    
-  }
-}
