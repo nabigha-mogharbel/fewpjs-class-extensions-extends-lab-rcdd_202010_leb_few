@@ -8,5 +8,5 @@ class Polygon{
   }
   get countSides() {return this.sides}
   get perimeter(){const reducer=(acc, curr) => acc+ curr
-  this.poly.reduce()}
+  return this.poly.reduce(reducer)}
 }
