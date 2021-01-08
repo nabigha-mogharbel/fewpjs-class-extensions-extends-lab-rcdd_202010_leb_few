@@ -7,5 +7,6 @@ class Polygon{
     
   }
   get countSides() {return this.sides}
-  get perimeter(){const reducer=()pol.reduce(acc,cr){acc+cr}}
+  get perimeter(){const reducer=(acc, curr) => acc+ curr
+  this.poly.reduce()}
 }
