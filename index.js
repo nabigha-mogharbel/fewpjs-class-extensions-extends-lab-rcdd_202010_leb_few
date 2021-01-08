@@ -1,8 +1,8 @@
 // Your code h
-pol=[];
+
 class Polygon{
-  constructor(pol){
-    sides=this.sides
+  constructor(poly){
+    this.sides=sides
     
   }
   get numberofsides() {sides=pol.length}
