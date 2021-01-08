@@ -2,9 +2,10 @@
 
 class Polygon{
   constructor(poly){
-    this.sides=sides
+    this.poly=poly
+    this.sides=this.poly.length
     
   }
-  get numberofsides() {sides=pol.length}
-  get perimeter(){pol.reduce(acc,cr){acc+cr}}
+  get countSides() {return this.sides}
+  get perimeter(){const pol.reduce(acc,cr){acc+cr}}
 }
