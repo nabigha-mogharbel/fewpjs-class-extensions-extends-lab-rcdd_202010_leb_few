@@ -11,3 +11,12 @@ class Polygon{
   console.log(typeof(this.poly.reduce(reducer)))
   return this.poly.reduce(reducer)}
 }
+
+class Triangle extends Polygon{
+  get valid(){
+    if(!Array.isArray(this.poly)) return;
+    if(this.poly.length !==3)return
+    else return((this.poly[0]+this.poly[1]>this.poly[2])&&(this.poly[1]+this.poly[3]>this.poly[2])&& (this.poly[2]+this.poly[3]>this.poly[1]))
+    
+  }
+}
